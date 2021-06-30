@@ -9,6 +9,6 @@ Learning PyGame with Stratton Brooks and Garrison Shoemake!
 ## Contributions
 
 ## Authors
-Adam Taylor
-Stratton Brooks
-Garrison Shoemake
+Adam Taylor  
+Stratton Brooks  
+Garrison Shoemake  

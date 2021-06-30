@@ -4,7 +4,7 @@ Learning PyGame with Stratton Brooks and Garrison Shoemake!
 
 ## Installation
 
-## Rules
+## How To Play
 
 ## Contributions
 

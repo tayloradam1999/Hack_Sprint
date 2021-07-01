@@ -1,18 +1,16 @@
-import pygame
-from pygame.locals import *
-import os
-import sys
+import pygame, os
 
 # create window vars
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('name of our game')
-
+WHITE = (255, 255, 255)
 # create assests
-DOG = pygame.image.load(os.path.join('assets', Interceptor-Walk(Left).gif))
+DOG = pygame.image.load(os.path.join('assets', 'left_dog.gif'))
 
 # create window function
 def create_window():
+    WIN.fill(WHITE)
     WIN.blit(DOG, (100, 300))
     pygame.display.update()
 
@@ -23,8 +21,8 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
-        # window will go here
+        create_window()
     pygame.quit()
-    sys.exit(0)
+    
 if __name__ == "__main__":
     main()
